@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  background: #def1ffc9;
+}
+
+.tasks {
+  border-left: 1vw solid #0d6efd;
+  font-size: 150%;
+  padding-top: 2vh;
+  padding-left: 4vw;
+  position: relative;
+  width: 90vw;
+  height: 9vh;
+  margin-left: 5vw;
+  margin-top: 2vh;
+  background: white;
+  border-radius: 10px;
+}
+
+#add {
+  position: fixed;
+  width: 15vw;
+  height: 15vw;
+  color: white;
+  margin-left: 79vw;
+  margin-top: calc(100vh - 21vw);
+  border-radius: 100%;
+  font-size: 8.5vw;
+  z-index: 100;
+}
+
+.del {
+  float: right;
+  color: red;
+  width: 10%;
+  height: 80%;
+  margin-right: 5%;
+  background: transparent;
+}
+
+.done {
+  float: right;
+  color: #0d6efd;
+  width: 10%;
+  height: 80%;
+  margin-right: 2%;
+  background: transparent;
+}
+
+.close {
+  font-size: 120%;
+  background: transparent;
+}
+
+.modal-content {
+  border-radius: 10px;
+  font-size: 120%;
+}
+
+#title {
+  width: 80%;
+  height: 5vh;
+  float: left;
+  resize: none;
+}
+
+#menu {
+  width: 11vw;
+  height: 11vw;
+  font-size: 9vw;
+  font-weight: 1500;
+  background: transparent;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  margin-left: 4vw;
+  border-radius: 100%;
+}
+
+.ripple {
+  background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.1) 10%, transparent 10%);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0 0;
+  animation: ripple 0.6s;
+}
